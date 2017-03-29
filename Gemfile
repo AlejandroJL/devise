@@ -12,7 +12,7 @@ gem "activemodel-serializers-xml", github: "rails/activemodel-serializers-xml"
 
 gem "rails-controller-testing"
 
-gem "responders", "~> 2.1"
+gem 'responders', github: 'plataformatec/responders'
 
 group :test do
   gem "omniauth-facebook"
